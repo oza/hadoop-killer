@@ -1,0 +1,5 @@
+kill:
+ target : "sbt"
+ max: 3
+ probability: 20
+ interval: 1
