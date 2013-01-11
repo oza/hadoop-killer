@@ -7,7 +7,7 @@ However, there is a one missing tool for hadoop development - fault injector, li
 ## Requirement
 
 * JDK 1.5 or later
-* ruby 1.9.2
+* ruby 1.9.3
 
 ## Installation
 
