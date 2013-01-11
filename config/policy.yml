@@ -1,5 +1,5 @@
 kill:
- target : "sbt"
+ target : "YarnChild"
  max: 3
- probability: 20
- interval: 1
+ probability: 1
+ interval: 30
