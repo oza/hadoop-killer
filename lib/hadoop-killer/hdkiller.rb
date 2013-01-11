@@ -5,8 +5,8 @@ require 'syslog'
 require 'fileutils'
 require 'pathname'
 require 'optparse'
-require 'time'
-require 'celluloid/io'
+require 'timers'
+require 'logger'
 
 module Hadoop
 module DevUitl
