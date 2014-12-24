@@ -93,7 +93,7 @@ class Watcher
 
   def kill(pid)
     begin
-      Process.kill("SIGKILL", pid)
+      Process.kill("KILL", pid)
     rescue Errno::ESRCH, RangeError   => e
       @logger.debug("Pid #{pid} may exit, so ignore it.")
     rescue Errno::EPERM => e
